@@ -10,10 +10,6 @@
 			$firstName = $_POST['firstName'];
 			echo $firstName;
 		}
-		if(strlen($_POST['lastName']) > 1){
-			$lastName = $_POST['lastName'];
-			echo $lastName;
-		}
 
 	}//closes if(), keep this at the end.
 
